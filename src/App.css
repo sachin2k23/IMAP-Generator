@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background: #0f1117;
+  font-family: "Segoe UI", sans-serif;
+  color: #e6e6e6;
+}
+
+.container {
+  max-width: 1150px;   /* slightly increased */
+  margin: auto;
+  padding: 12px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;   /* slightly bigger */
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px 14px;
+}
+
+.section {
+  background: #1a1d25;
+  padding: 8px;   /* tighter */
+  border-radius: 6px;
+  border: 1px solid #2a2e39;
+}
+
+.section h2 {
+  font-size: 13px;   /* slightly bigger */
+  margin-bottom: 6px;
+  color: #9aa4b2;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;   /* tighter spacing */
+}
+
+.field label {
+  font-size: 12px;   /* slightly bigger */
+  margin-bottom: 2px;
+  color: #cbd5e1;
+}
+
+.field input {
+  padding: 6px;   /* slightly bigger */
+  font-size: 13px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background: #0f1117;
+  color: white;
+}
+
+.field input:focus {
+  border-color: #4f8cff;
+  outline: none;
+}
+
+/* 🔥 Button slightly improved */
+.generate-btn {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  font-size: 14px;
+  background: #4f8cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.generate-btn:hover {
+  background: #3a6edc;
+}
